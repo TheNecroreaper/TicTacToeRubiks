@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/GameManager.obj-f5b113aaca810e9161bc0495695edc5c.mesh"
+
+[deps]
+
+files=[ "res://.import/GameManager.obj-f5b113aaca810e9161bc0495695edc5c.mesh" ]
+
+source_file="res://src/TikTacToeRubiks/GameManager.obj"
+dest_files=[ "res://.import/GameManager.obj-f5b113aaca810e9161bc0495695edc5c.mesh", "res://.import/GameManager.obj-f5b113aaca810e9161bc0495695edc5c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

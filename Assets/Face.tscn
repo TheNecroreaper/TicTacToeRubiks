@@ -1,0 +1,54 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Sprites/O.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Face.gdns" type="Script" id=2]
+
+[node name="Face" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Space1" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+offset = Vector2( 128, 128 )
+flip_h = true
+
+[node name="Space2" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+offset = Vector2( 384, 128 )
+flip_h = true
+
+[node name="Space3" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+offset = Vector2( 640, 128 )
+flip_h = true
+
+[node name="Space4" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+offset = Vector2( 128, 384 )
+flip_h = true
+
+[node name="Space5" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+offset = Vector2( 384, 384 )
+flip_h = true
+
+[node name="Space6" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+offset = Vector2( 640, 384 )
+flip_h = true
+
+[node name="Space7" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+offset = Vector2( 128, 640 )
+flip_h = true
+
+[node name="Space8" type="Sprite" parent="."]
+position = Vector2( 256, 512 )
+texture = ExtResource( 1 )
+offset = Vector2( 128, 128 )
+flip_h = true
+
+[node name="Space9" type="Sprite" parent="."]
+position = Vector2( 512, 512 )
+texture = ExtResource( 1 )
+offset = Vector2( 128, 128 )
+flip_h = true
